@@ -9,7 +9,7 @@ int foo(int one,int two,int th)
 	return d+th;
 }
 
-int main()\
+int main()
 {
 	typedef struct a{
 		double a;
