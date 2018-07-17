@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(int argc, char *argv[])
+{
+	typedef struct{
+		char buf[1012];
+		int b ;
+		double a;
+}aa;
+	aa bb;	
+	strcpy(argv[1],bb.buf);
+}
